@@ -18,10 +18,10 @@ public class NewBehaviourScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (lastHeight != Screen.height)
-		{
-			lastHeight = Screen.height;
-			camera.orthographicSize = lastHeight / 2;
-		}
+	//	if (lastHeight != Screen.height)
+	//	{
+	//		lastHeight = Screen.height;
+	//		camera.orthographicSize = lastHeight / 2;
+	//	}
 	}
 }
